@@ -156,7 +156,7 @@ export default function Home() {
           <Button
             onClick={() => fetchNewMessage.mutate()}
             disabled={fetchNewMessage.isPending}
-            className="group relative overflow-hidden bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+            className="group relative overflow-hidden bg-gradient-to-r from-primary to-secondary text-white px-8 py-6 text-lg font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
             size="lg"
           >
             <RefreshCw className={`mr-3 h-5 w-5 transition-transform duration-500 ${fetchNewMessage.isPending ? 'animate-spin' : 'group-hover:rotate-180'}`} />
@@ -167,7 +167,7 @@ export default function Home() {
             <Button
               onClick={() => handleFavoriteMessage(currentMessage.id)}
               variant="outline"
-              className="group bg-white/70 backdrop-blur-sm border-slate-200 hover:bg-white hover:shadow-md transition-all duration-300 px-6 py-4"
+              className="group bg-white/70 backdrop-blur-sm border-slate-200 hover:bg-white hover:shadow-md transition-all duration-300 px-6 py-6"
               size="lg"
             >
               <Heart className={`mr-2 h-5 w-5 transition-all duration-300 ${
