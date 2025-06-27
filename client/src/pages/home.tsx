@@ -127,7 +127,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-2">
             <MessageCircle className="inline-block h-8 w-8 text-primary mr-3" />
-            Daily Motivation
+            My Daily Motivation
           </h1>
           <p className="text-slate-600 text-lg">Find inspiration in every moment</p>
         </div>
