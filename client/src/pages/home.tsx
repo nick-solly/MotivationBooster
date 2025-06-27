@@ -160,7 +160,7 @@ export default function Home() {
             size="lg"
           >
             <RefreshCw className={`mr-3 h-5 w-5 transition-transform duration-500 ${fetchNewMessage.isPending ? 'animate-spin' : 'group-hover:rotate-180'}`} />
-            {fetchNewMessage.isPending ? 'Loading...' : 'Get New Message'}
+            {fetchNewMessage.isPending ? 'Loading...' : 'Get a New Message'}
           </Button>
           
           {currentMessage && (
