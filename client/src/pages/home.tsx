@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useToast } from "@/hooks/use-toast";
-import { Heart, RefreshCw, History, Quote, User, AlertTriangle } from "lucide-react";
+import { Heart, RefreshCw, History, Quote, User, AlertTriangle, MessageCircle } from "lucide-react";
 import type { Message } from "@shared/schema";
 
 export default function Home() {
@@ -126,7 +126,7 @@ export default function Home() {
       <header className="relative z-10 pt-8 pb-4">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-slate-800 mb-2">
-            <Heart className="inline-block h-8 w-8 text-primary mr-3" />
+            <MessageCircle className="inline-block h-8 w-8 text-primary mr-3" />
             Daily Motivation
           </h1>
           <p className="text-slate-600 text-lg">Find inspiration in every moment</p>
